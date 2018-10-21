@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=khVrvEGyNIFV0wLI8SwYi0f9Eos5n591"></script>
+    <title>party-family</title>
+
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <!--<script>-->
+      <!--function relizeWindow(){-->
+        <!--let deviceWidth = document.documentElement.clientWidth;-->
+        <!--let rootRem = deviceWidth / 7.5 + "px";-->
+        <!--document.documentElement.style.fontSize = rootRem-->
+      <!--}-->
+      <!--relizeWindow()-->
+    <!--</script>-->
+
+    <script>
+      var match,
+        scale,
+        TARGET_WIDTH = 320;
+
+      if (match = navigator.userAgent.match(/Android (\d+\.\d+)/)) {
+        if (parseFloat(match[1]) < 4.4) {
+          if (TARGET_WIDTH == 320) TARGET_WIDTH++;
+          var scale = window.screen.width / TARGET_WIDTH;
+          document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=' + TARGET_WIDTH + ', initial-scale = ' + scale + ', target-densitydpi=device-dpi');
+        }
+      } else {
+        document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=' + TARGET_WIDTH);
+      }
+    </script>
+
+  </body>
+</html>
