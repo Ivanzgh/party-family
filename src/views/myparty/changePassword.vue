@@ -33,6 +33,9 @@
     width: 331px;
     height: 315px;
     margin: 60px auto;
+    p{
+      font-size: 18px;
+    }
 
     .input {
       height: 46px;

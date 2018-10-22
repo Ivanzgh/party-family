@@ -60,20 +60,20 @@
 
 <style scoped lang="scss">
   .life-img {
-    width: 414px;
-    height: 205px;
+    width: 375.33px;
+    height: 186.29px;
     background: url("/static/imgs/timg.jpg") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 
   .life-conent {
-    width: 414px;
-    height: 314px;
+    width: 375.33px;
+    height: 308.21px;
 
     img {
-      width: 100px;
-      height: 100px;
+      width: 85px;
+      height: 85px;
     }
 
     .conent-warp {
@@ -84,7 +84,7 @@
       width: 33%;
       padding: 20px 0;
       .desc{
-        font-size: 16px;
+        font-size: 14px;
         color: #666;
       }
     }

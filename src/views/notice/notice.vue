@@ -50,7 +50,7 @@
 
 <style scoped lang="scss">
   .notice-content{
-     width: 394px;
+     width: 355px;
      height: 77px;
      padding: 10px;
      border-bottom: 1px solid #999;
@@ -73,17 +73,18 @@
      }
 
      .notice-info{
-       width: 315px;
+       width: 274px;
        height: 76px;
        .notice-header{
          font-size: 16px;
-         width: 305px;
+         width: 274px;
          height: 40px;
        }
        .notice-date{
          font-size: 12px;
-         width: 305px;
+         width: 274px;
          height: 20px;
+         padding-top: 8px;
        }
 
      }

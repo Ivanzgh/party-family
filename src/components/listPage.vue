@@ -44,7 +44,7 @@
 
 <style scoped lang="scss">
   .list-content {
-    width: 394px;
+    width: 355.33px;
     height: 80px;
     padding: 10px;
     border-bottom: 1px solid #999;
@@ -68,18 +68,18 @@
 
     .list-info {
       padding-left: 10px;
-      width: 304px;
+      width: 265.33px;
       height: 80px;
       .list-header {
-        width: 305px;
+        width: 100%;
         height: 40px;
         font-size: 16px;
       }
       .list-date {
-        width: 305px;
-        height: 15px;
-        font-size: 10px;
-        padding-top: 25px;
+        width: 100%;
+        height: 13px;
+        font-size: 9px;
+        padding-top: 30px;
       }
     }
   }

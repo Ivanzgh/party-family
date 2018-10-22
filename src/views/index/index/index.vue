@@ -115,8 +115,8 @@
 
   /*内容样式*/
   .content {
-    width: 414px;
-    height: 218px;
+    width: 375.33px;
+    height: 198px;
     background: url("/static/imgs/bt_bg.png") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -128,12 +128,12 @@
     }
 
     .content-warp {
-      height: 108px;
+      height: 98.67px;
 
       .content-item {
         text-align: center;
         width: 33%;
-        padding: 9px 0;
+        padding: 6px 0;
       }
       .desc {
         font-size: 12px;
@@ -144,50 +144,49 @@
   }
 
   .content-banner {
-    width: 414px;
-    height: 100px;
+    width: 375.33px;
+    height: 90.18px;
     background: url("/static/imgs/banner01.png") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
   }
 
   .content-bottom {
-    width: 414px;
-    height: 182px;
+    width: 375.33px;
+    height: 164px;
     background: url("/static/imgs/tese.png") no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    margin-bottom: 54px;
-
+    margin-bottom: 52px;
     a {
       display: block;
-      width: 138px;
-      height: 91px;
+      width: 100%;
+      height: 82px;
     }
 
     .content-left {
-      width: 138px;
-      height: 182px;
+      width: 33.3333%;
+      height: 100%;
     }
     .content-middle {
-      width: 138px;
-      height: 182px;
+      width: 33.3333%;
+      height: 100%;
 
       .middle-top {
-        height: 91px;
+        height: 50%;
       }
       .middle-bottom {
-        height: 91px;
+        height: 50%;
       }
     }
     .content-right {
-      width: 138px;
-      height: 182px;
+      width: 33.3333%;
+      height: 100%;
       .rignt-top {
-        height: 91px;
+        height: 50%;
       }
       .rignt-bottom {
-        height: 91px;
+        height: 50%;
       }
     }
   }

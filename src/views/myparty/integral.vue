@@ -62,9 +62,10 @@
 <style scoped lang="scss">
   .integral-img {
     position: relative;
+    height: 144.92px;
     img {
-      width: 414px;
-      height: 160px;
+      width: 375.33px;
+      height: 144.92px;
     }
     .score {
       position: absolute;
@@ -72,20 +73,25 @@
       left: 50%;
       transform: translate(-50%, -50%);
       color: #fff;
+      font-size: 16px;
 
     }
   }
 
   .jfmx {
-    width: 394px;
+    width: 355.33px;
     height: 50px;
     line-height: 50px;
     padding: 0 10px;
     color: #333;
     a {
       display: block;
-      width: 394px;
+      width: 355.33px;
       height: 54px;
+    }
+    span{
+      font-size: 16px;
+      color: #666;
     }
 
     .img-f {
@@ -103,7 +109,7 @@
   }
 
   .jfgz {
-    width: 394px;
+    width: 355.33px;
     height: 18px;
     font-size: 16px;
     color: #666;
@@ -118,7 +124,7 @@
 
   .list-item {
     font-size: 16px;
-    width: 384px;
+    width: 345.33px;
     height: 24px;
     padding: 5px 15px;
     color: #666;

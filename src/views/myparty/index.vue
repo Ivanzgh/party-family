@@ -92,7 +92,7 @@
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    width: 404px;
+    width: 365.33px;
     height: 44px;
     line-height: 44px;
     padding: 0 5px;
@@ -100,8 +100,8 @@
   }
 
   .myparty-userinfo {
-    width: 414px;
-    height: 155px;
+    width: 375.33px;
+    height: 140.75px;
     background: #c50206;
     display: flex;
     justify-content: center;
@@ -113,8 +113,8 @@
       text-align: center;
 
       img {
-        width: 69px;
-        height: 69px;
+        width: 62px;
+        height: 62px;
         border-radius: 50%;
       }
       .user-login{
@@ -132,10 +132,10 @@
   }
 
   .userinfo {
-    width: 414px;
+    width: 375.33px;
     height: 213px;
     .info-item {
-      width: 374px;
+      width: 335.33px;
       height: 54px;
       line-height: 54px;
       padding: 0 20px;
@@ -143,7 +143,7 @@
       color: #333;
       a{
         display: block;
-        width: 374px;
+        width: 335.33px;
         height: 54px;
       }
 
@@ -160,7 +160,7 @@
       }
       .img-r {
         width: 10px;
-        height: 20px;
+        height: 16px;
         display: block;
         padding: 10px 0 0;
       }

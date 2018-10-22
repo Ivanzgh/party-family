@@ -49,6 +49,9 @@
     height: 40px;
     line-height: 40px;
     padding: 10px;
+    span{
+      font-size: 18px;
+    }
     img {
       width: 40px;
       height: 40px;

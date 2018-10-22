@@ -36,7 +36,7 @@ export default {
     background: #c50206;
     font-size: 18px;
     text-align: center;
-    width: 394px;
+    width: 355.33px;
     height: 44px;
     line-height: 43px;
     position: fixed;

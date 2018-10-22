@@ -55,11 +55,11 @@
 
 <style scoped lang="scss">
   .banner {
-    width: 100%;
-    height: 224px;
+    width: 375px;
+    height: 187.5px;
     img {
-      width: 100%;
-      height: 207px;
+      width: 375px;
+      height: 187.5px;
       position: relative;
     }
 
