@@ -26,7 +26,7 @@
       return {
         title: '登录',
         userInfo: {
-          id_card: '1001',
+          id_card: '1002',
           password: '123456'
         },
       }

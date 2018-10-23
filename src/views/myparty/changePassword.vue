@@ -3,11 +3,11 @@
     <Header :title="title"></Header>
     <div class="update-password">
       <p>旧密码：</p>
-      <input type="password" class="input">
+      <input type="password" class="input" v-model="passwordData">
       <p>新密码：</p>
-      <input type="password" class="input">
+      <input type="password" class="input" v-model="passwordData">
       <p>确定密码：</p>
-      <input type="password" class="input">
+      <input type="password" class="input" v-model="passwordData">
       <van-button type="danger" size="large">确定</van-button>
     </div>
   </div>
@@ -22,9 +22,19 @@
     },
     data() {
       return {
-        title: '修改密码'
+        title: '修改密码',
+        passwordData : ''
       }
     },
+    methods : {
+      update() {
+        this.$axios.post('/user/updatePwd.do?',this.passwordData).then(res => {
+          if (res.code == 1 ) {
+            consolo.log('OK')
+          }
+        })
+      }
+    }
   }
 </script>
 

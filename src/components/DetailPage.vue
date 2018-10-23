@@ -41,20 +41,27 @@
 <style scoped lang="scss">
   .news-content {
     margin: 0 auto;
-    width: 394px;
+    width: 355.33px;
 
     .news-title {
-      width: 394px;
-      height: 86px;
+      width: 355.33px;
+      height: 57.33px;
       font-size: 24px;
+      margin: 10px 0;
     }
-    .news-img img {
-      width: 394px;
-      height: 261px;
-    }
+
     .news-info {
       font-size: 12px;
-      width: 394px;
+      width: 355.33px;
+
+      /deep/ img{
+        width: 100%;
+      }
+      /deep/ p{
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 2;
+      }
     }
   }
 
